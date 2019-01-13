@@ -1,0 +1,1 @@
+Get-GPO -All | Select-Object DisplayName, ID, Description, CreationTime, ModificationTime | Export-Csv c:\temp\GPOs.csv -NoTypeInformation
